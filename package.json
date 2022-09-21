@@ -6,12 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "tailwind": "npx tailwindcss -o styles/tailwind.css -w"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.11",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.54.9",
+    "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
     "@types/node": "18.7.17",
